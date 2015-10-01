@@ -1,0 +1,284 @@
+/*----------------------OGÓLNE----------------------*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    weight: 977px;
+}
+
+/*----------------------NAV----------------------*/
+.nav{
+    border-bottom: 10px solid #99cc66;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav img {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav ul{
+    float: right;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    text-decoration: none;
+    color:#282828;
+    padding: 10px 20px 10px 20px;
+}
+
+.nav #b1:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #99cccc;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.nav #b2:hover{
+    text-decoration: none;
+    color: #ffffff;;
+    background-color: #99cc66;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.nav #b3:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #ffcc66;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.nav #b4:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #cc6666;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+/*----------------------JUMBOTRON----------------------*/
+.jumbotron {
+    height: 562px;
+    background-image: url('GRAFIKA/tlo1.png');
+}
+
+.jumbotron .container {
+    text-align: center;
+    color: #fcfcfc;
+
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    margin-top:200px;
+    text-decoration: underline;
+}
+
+.jumbotron p{
+    margin: 30px;
+}
+
+/*----------------------CZYM----------------------*/
+
+.czym {
+    background-color: #ffffff;
+}
+
+.czym .container {
+    text-align: center;
+}
+
+.czym img{
+    margin:20px;
+}
+
+
+
+.czym h2 {
+    padding: 4px;
+    text-decoration: underline #666666;
+    margin-bottom: 40px;
+}
+
+.czym p{
+    margin-bottom: 20px;
+}
+
+.czym li {
+    display: inline;
+}
+
+/*----------------------BENEFITY----------------------*/
+
+.benefity {
+    background-color: #99cc66;
+    text-align: center;
+    text-decoration: none;
+}
+
+.benefity h3 {
+    font-size: 70px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.benefity p {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/*----------------------PRACE----------------------*/
+
+.prace {
+    text-align: center;
+}
+
+.prace ul {
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.prace li{
+    display: inline;
+    padding: 15px;
+}
+
+.prace td {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.prace #b5:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #99cccc;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.prace #b6:hover{
+    text-decoration: none;
+    color: #ffffff;;
+    background-color: #99cc66;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.prace #b7:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #ffcc66;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.prace #b8:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #cc6666;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.prace .btn_prace {
+    opacity:0.5;
+}
+
+.prace .btn_prace:hover {
+    opacity: 1.0;
+}
+
+/*----------------------OPINIE----------------------*/
+
+.opinie {
+    background-color:#99cc66;
+    text-align: center;
+    color: #ffffff;
+}
+
+.opinie h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.opinie p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/*----------------------KONTAKT----------------------*/
+
+.sekcja_kontakt {
+    background-image: url('GRAFIKA/tlo1.png');
+    height: 250px;
+    border-bottom: 10px solid #99cc66;
+}
+
+.sekcja_kontakt h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sekcja_kontakt p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*----------------------FOOTER----------------------*/
+
+.fotter img {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .social {
+    float: left;
+}
+.footer ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    opacity:0.5;
+}
+
+.footer a:hover {
+    opacity: 1.0;
+}
