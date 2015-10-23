@@ -1,0 +1,393 @@
+/*----------------------------RESET----------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----------------------------OGÓLNE---------------------------*/
+
+*{
+    font-family: Roboto Slab, sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+/*----------------------------SEKCJA_1---------------------------*/
+
+.section1 {
+    height: 851px;
+    text-align: center;
+    background-image: url("grafika/tlo.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 3;
+}
+
+.section1 #logo{
+    float: left;
+    padding:15px;
+}
+
+.section1 h1{
+    font-size: 67px;
+    line-height: 69px;
+    padding-top: 318px;
+    padding-bottom: 80px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.section1 a{
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color:#282828;
+    border: solid 2px #282828;
+    border-radius: 10px;
+    padding:25px 60px;
+    z-index: 1;
+    margin-bottom: 291px;
+}
+
+.section1 a:hover{
+    background-color: #282828;
+    color: #ffffff;
+    border-radius: 60px;
+    transition:0.8s;
+    z-index: 2;
+}
+
+/*----------------------------SEKCJA_2---------------------------*/
+
+.section2{
+    background-color: #08414f;
+    height: 750px;
+}
+
+.section2 .container #block_s2_1{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding-left: 25px;
+}
+
+.section2 .container #block_s2_2{
+    position: relative;
+    float: right;
+    padding: 20px;
+    width: 40%;
+}
+
+.section2 .container h2{
+    font-size: 42px;
+    color: #ffffff;
+    padding-top: 160px;
+    padding-bottom: 27px;
+}
+
+.section2 .container p{
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    padding-top: 27px;
+    padding-bottom: 87px;
+}
+
+.section2 .container a{
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color:#ffffff;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    padding:25px 60px;
+    z-index: 1;
+    margin-bottom: 291px;
+}
+
+.section2 .container a:hover{
+    background-color: #ffffff;
+    color: #08414f;
+    border-radius: 60px;
+    transition:0.8s;
+    z-index: 2;
+}
+
+.section2 .container .border_white{
+    width: 83px;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+/*----------------------------SEKCJA_3---------------------------*/
+
+.section3{
+    width: 100%;
+    height: 750px;
+    background-image: url("grafika/tlo.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 3;
+}
+
+.section3 .container h2{
+    font-size: 41px;
+    padding-top: 100px;
+    padding-bottom: 24px;
+    text-align: center;
+    z-index: 1;
+}
+
+.section3 .container .border_blue{
+    width: 83px;
+    height: 7px;
+    background-color: #08414f;
+    border-radius: 3px;
+    z-index: 1;
+    margin: auto;
+}
+
+/*---BULETY---*/
+
+.section3 .block{
+    width: 33%;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.section3 .block h3{
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.section3 .block p{
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+
+/*---CTA------------------------------JAK WYŚRODKOWAĆ?
+
+.section3 .container a{
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color:#282828;
+    border: solid 2px #282828;
+    border-radius: 10px;
+    padding:25px 60px;
+    z-index: 1;
+}
+
+.section3 .container a:hover{
+    background-color: #282828;
+    color: #ffffff;
+    border-radius: 60px;
+    transition:0.8s;
+    z-index: 2;
+}
+---*/
+
+/*----------------------------SEKCJA_4---------------------------*/
+
+.section4{
+    weight: 100%;
+    height: 600px;
+    text-align: center;
+    font-size: 41px;
+    background-color: #08414f;
+}
+
+.section4 h2{
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.section4 .border_white{
+    width: 83px;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.section4 .img{
+    height: 510px;
+    width: 33.33333%;
+    float: left;
+    margin:60px 0 100px 0;
+}
+
+.section4 #img1{
+    background-image: url("grafika/port_1.png");
+    background-repeat: no-repeat;
+}
+
+.section4 #img2{
+    background-image: url("grafika/port_2.png");
+    background-repeat: no-repeat;
+}
+.section4 #img3{
+    background-image: url("grafika/port_3.png");
+    background-repeat: no-repeat;
+}
+
+.section4 #img1:hover{
+    background-image: url("grafika/port_1_hov.png");
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    transition:0.8s;
+}
+
+.section4 #img2:hover{
+    background-image: url("grafika/port_2_hov.png");
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    transition:0.8s;
+}
+.section4 #img3:hover{
+    background-image: url("grafika/port_3_hov.png");
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    transition:0.8s;
+}
+
+/*----------------------------SEKCJA_5---------------------------*/
+
+.section5{
+    width: 100%;
+    background-image: url("grafika/tlo.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 3;
+}
+
+.section5 h2{
+    text-align: center;
+    font-size: 41px;
+    color: #282828;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.section5 .container .logo img{
+    padding: 80px 5px 100px 5px;
+   /* display: block;----------JAK WYŚRODKOWAĆ------------*/
+}
+
+
+/*----------------------------SEKCJA_6---------------------------*/
+
+.section6{
+    height: 820px;
+    width: 100%;
+    background-image: url("grafika/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section6 h2{
+    text-align: center;
+    font-size: 41px;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.section6 .border_white{
+    width: 83px;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.section6 #logo_icon{
+    padding: 15px;
+    margin: 45px 45px 0 0;
+    float: left;
+    width: 10%;
+    height: 500px;
+}
+
+.section6 #dane2{
+    width: 30%;
+    height: 500px;
+    margin-top:45px;
+    margin-right: 20px;
+}
+
+.section6 #dane2 p{
+    font-size:  20px;
+    line-height: 31px;
+    padding-top: 15px;
+    padding-bottom: 52px;
+    color: #ffffff;
+}
+
+.section6 #form-main{
+    width: 50%;
+    height: 500px;
+    margin-top:45px;
+}
+
+
